@@ -44,10 +44,10 @@ namespace Tasks_IJunior._05_Collections
            Console.WriteLine("\nВведите число: ");
 
            int number;
-           //bool isWorking = true;
+           bool isWorking = true;
 
-           //while (isWorking)
-           //{
+           while (isWorking)
+           {
            string userNumber = Console.ReadLine();
 
            if (int.TryParse(userNumber, out number))
@@ -59,15 +59,15 @@ namespace Tasks_IJunior._05_Collections
                {
                    Console.WriteLine(array[i]);
                }
-               //break;
+               break;
 
            }
            else
            {
                Console.WriteLine("[ERROR]: Invalid input");
-               //break;
+               break;
            }
-           //}
+           }
        }
 
        static void ShowSum(List<int> array)
