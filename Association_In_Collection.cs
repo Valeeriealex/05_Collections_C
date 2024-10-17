@@ -39,12 +39,12 @@ namespace Tasks_IJunior._05_Collections
            }
        }
 
-       //static void PrintArray(List<string> array)
-       //{
-       //    foreach (string number in array)
-       //    {
-       //        Console.WriteLine(number);
-       //    }
-       //}
+       static void PrintArray(List<string> array)
+       {
+          foreach (string number in array)
+          {
+              Console.WriteLine(number);
+          }
+       }
    }
 }
