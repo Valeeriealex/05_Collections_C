@@ -15,7 +15,8 @@
 ` List<int> numsList = new List<int>();
 numsList.Add(1); ` 
 
-void Add(T item): добавление нового элемента в список. void AddRange(IEnumerable<T> collection): добавление в список коллекции или массива.
+void Add(T item): добавление нового элемента в список. 
+void AddRange(IEnumerable<T> collection): добавление в список коллекции или массива.
 
 ![image](https://github.com/user-attachments/assets/d5cbc900-4749-4d6b-a38c-7ddee7f2c039)
 
